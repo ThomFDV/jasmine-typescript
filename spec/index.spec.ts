@@ -1,6 +1,6 @@
 'use strict';
 
-import User from "../index";
+import User from "../src/index";
 
 describe("testing the user class", function() {
     let user1 = new User("toto@toto.toto", "toto", "tata", 22);
